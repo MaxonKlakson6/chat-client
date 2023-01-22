@@ -1,0 +1,19 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid #2e7d32;
+  border-radius: 5px;
+}
+
+.nameField input {
+  padding: 10px 5px;
+}
