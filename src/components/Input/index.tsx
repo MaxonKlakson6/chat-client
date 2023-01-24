@@ -7,15 +7,20 @@ const Input = ({
   value,
   className,
   variant,
+  fullWidth,
   color,
   onChange,
-}: TextFieldProps) => {
+}: TextFieldProps): JSX.Element => {
   return (
     <TextField
       className={className}
       variant={variant}
+      fullWidth={fullWidth}
       color={color}
       placeholder={placeholder}
+      name={name}
+      value={value}
+      onChange={onChange}
     />
   );
 };

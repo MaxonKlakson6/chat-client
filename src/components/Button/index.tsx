@@ -7,14 +7,16 @@ const Button = ({
   variant,
   color,
   disabled,
+  type,
   onClick,
-}: ButtonProps) => {
+}: ButtonProps): JSX.Element => {
   return (
     <MuiButton
       className={className}
       variant={variant}
       color={color}
       disabled={disabled}
+      type={type}
       onClick={onClick}
     >
       {children}

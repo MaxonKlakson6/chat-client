@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.accordion {
+  margin: 0 !important;
+}
+
+.some {
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.accordionFields {
+  font-weight: 600;
+}
+
+.textWrap {
+  word-wrap: anywhere;
+}
